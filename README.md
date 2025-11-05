@@ -1,1 +1,43 @@
-N Katmanlı Mimari (C# - ADO.NET) | Bu proje, C# dili kullanılarak N Katmanlı Mimari (N-Layer Architecture) yapısında geliştirilmiş örnek bir uygulamadır. Amaç, yazılım geliştirme sürecinde katmanlar arası bağımlılığı azaltmak, bakımı kolaylaştırmak ve kurumsal mimariye uygun bir yapı ortaya koymaktır. 📁 Katmanlar: EntityLayer (veritabanı tablolarını temsil eden entity sınıfları), DataAccessLayer (veritabanı işlemleri ve CRUD fonksiyonları), LogicLayer (iş mantığı ve kurallar), NKatmanliMimari (UI - sunum katmanı). ⚙️ Teknolojiler: C#, .NET Framework, ADO.NET, Katmanlı Mimari, OOP. 💡 Amaç: Katmanlı mimariyi uygulayarak veri erişim katmanını soyutlamak ve bağımlılıkları en aza indirmek. 🧩 Örnek Senaryo: Kullanıcı, veritabanına kayıt ekleme, silme, güncelleme ve listeleme işlemlerini GUI veya konsol arayüzü üzerinden gerçekleştirebilir. 🚀 Kazanımlar: Katmanlı mimarinin temel yapısını kavrama, iş katmanı (BLL) ile veri erişim katmanı (DAL) ayrımını anlama, temiz kod ve modüler yapı prensiplerini uygulama. 📦 Kurulum: 1️⃣ Projeyi indir veya klonla → git clone https://github.com/YasinBba/NKatmanliMimari.git 2️⃣ Visual Studio’da NKatmanliMimari.sln dosyasını aç 3️⃣ Katman referanslarını kontrol et (Entity → DAL → BLL → UI) 4️⃣ Çalıştır ve CRUD işlemlerini test et. ✍️ Geliştirici: Yasin Büyükbağrıaçık
+🧩 N Katmanlı Mimari (C# - ADO.NET)
+
+Bu proje, C# dili kullanılarak N Katmanlı Mimari (N-Layer Architecture) yapısında geliştirilmiş örnek bir uygulamadır. Amaç; yazılım projelerinde katmanlar arası bağımlılığı azaltmak, bakımı kolaylaştırmak ve kurumsal ölçekli yapılara uygun bir mimariyi örneklemektir.
+
+📐 Mimari Yapı
+
+Proje dört ana katmandan oluşur:
+
+Katman	Açıklama
+EntityLayer	Veritabanı tablolarını temsil eden Entity sınıfları bulunur.
+DataAccessLayer (DAL)	Veritabanı işlemleri (CRUD) ve sorgular ADO.NET ile gerçekleştirilir.
+LogicLayer (BLL)	İş mantığı, doğrulama, ve veritabanı işlemlerinin kontrolü burada yapılır.
+NKatmanliMimari (UI)	Kullanıcı arayüzü veya sunum katmanıdır (örnek olarak konsol veya WinForms).
+⚙️ Kullanılan Teknolojiler
+
+C# / .NET Framework
+
+ADO.NET
+
+Katmanlı Mimari (N-Layer Architecture)
+
+Object-Oriented Programming (OOP)
+
+💡 Proje Amacı
+
+Katmanlı mimarinin çalışma mantığını göstermek,
+veri erişim katmanını soyutlayarak iş mantığı katmanından ayırmak
+ve temiz, yeniden kullanılabilir, sürdürülebilir kod yapısı oluşturmaktır.
+
+🚀 Uygulama Senaryosu
+
+Kullanıcı, veritabanı üzerinden kayıt ekleme, silme, güncelleme ve listeleme işlemlerini
+arayüz veya konsol ekranı aracılığıyla gerçekleştirebilir.
+
+🧠 Kazanımlar
+
+Katmanlı mimarinin temel mantığını anlama
+
+DAL, BLL, ve Entity katmanları arasındaki ilişkiyi öğrenme
+
+Bağımlılık yönetimi ve soyutlama kavramlarını uygulama
+
+Kurumsal uygulamalarda sık kullanılan mimari yaklaşımı öğrenme
