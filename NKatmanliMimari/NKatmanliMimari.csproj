@@ -79,5 +79,19 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj">
+      <Project>{1293b848-2e09-4ab7-b86c-1ca79d88eed4}</Project>
+      <Name>DataAccessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EntityLayer\EntityLayer.csproj">
+      <Project>{dd219168-bc55-4813-b34d-9b8189a4a613}</Project>
+      <Name>EntityLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LogicLayer\LogicLayer.csproj">
+      <Project>{f2b4ebeb-ec8a-43ba-89b9-b4272c9ccc2e}</Project>
+      <Name>LogicLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
