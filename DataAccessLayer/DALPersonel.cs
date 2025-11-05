@@ -9,7 +9,7 @@ using System.Data;
 
 namespace DataAccessLayer
 {
-    class DALPersonel
+    public class DALPersonel
     {
         public static List<EntityPersonel> PersonelListesi()
         {
